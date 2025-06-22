@@ -1,0 +1,24 @@
+local M = {
+	'nvim-lualine/lualine.nvim',
+	dependencies = { 'nvim-tree/nvim-web-devicons' },
+	lazy = false,
+	config = function()
+		require('lualine').setup({
+			options = {
+				theme = 'auto',
+			},
+			sections = {
+				lualine_a = {
+					{
+						'filename',
+						file_status = true, -- Displays file status (readonly status, modified status)
+						newfile_status = false, -- Display new file status (new file means no write after created)
+						path = 1,
+					},
+				},
+			},
+		})
+	end,
+}
+
+return { M }
