@@ -1,5 +1,4 @@
 require("core.options")
 require("core.mappings")
-require("core.terminal")
 require("core.lazy")
 require("core.lsp")
