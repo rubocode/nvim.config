@@ -22,10 +22,10 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 require("lazy").setup({
 	spec = {
 		{ import = "plugins.aesthetics" },
+		{ import = "plugins.code" },
 		{ import = "plugins.colorschemes" },
 		{ import = "plugins.editing" },
 		{ import = "plugins.git" },
-		{ import = "plugins.languages" },
 	},
 
 	defaults = {
