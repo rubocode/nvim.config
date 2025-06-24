@@ -1,5 +1,5 @@
 local M = {
-	"metalelf0/black-metal-theme-neovim",
+	"rubocode/black-metal-theme-neovim",
 	lazy = false,
 	
 	config = function()
