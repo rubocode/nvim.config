@@ -1,5 +1,5 @@
-local scheme_true24 = 'uniwatch' 
-local scheme_256 = 'uniwatch'
+local scheme_true24 = 'khold' 
+local scheme_256 = 'two-firewatch'
 
 if (vim.env.COLORTERM == "truecolor") then
 	local ok, err = pcall(vim.cmd, 'colorscheme ' .. scheme_true24)
