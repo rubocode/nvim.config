@@ -7,12 +7,15 @@ local M = {
 				lua = { "stylua" },
 				go = { "goimports", "golines", "gofmt" },
 			},
-			-- format_on_save = {
-			--     lsp_fallback = true,
-			--     async = false,
-			-- },
+			format_on_save = {
+				lsp_fallback = true,
+				async = false,
+			},
 		})
+
+		vim.keymap.set("n", "<C-f>", function()
+			require("conform").format()
+		end, { desc = "Format current file" })
 	end,
 }
-
 return { M }

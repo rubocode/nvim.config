@@ -1,5 +1,5 @@
 vim.lsp.enable({
-	"lus_ls",
+	"lua_ls",
 	"gopls",
 })
 
