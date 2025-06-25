@@ -26,6 +26,7 @@ require("lazy").setup({
 		{ import = "plugins.colorschemes" },
 		{ import = "plugins.editing" },
 		{ import = "plugins.git" },
+		{ import = "plugins.projects" },
 	},
 
 	defaults = {
