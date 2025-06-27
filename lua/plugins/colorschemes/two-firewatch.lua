@@ -1,5 +1,5 @@
 local M = {
-	"rubocode/uniwatch.vim",
+	"rubocode/two-firewatch.vim",
 	lazy = false,
 	config = function() end,
 }
