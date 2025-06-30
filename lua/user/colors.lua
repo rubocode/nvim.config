@@ -1,5 +1,5 @@
-local scheme_true24 = "khold"
-local scheme_256 = "default"
+local scheme_true24 = "xt-uniwatch"
+local scheme_256 = "xt-uniwatch"
 
 if vim.g.termguicolors then
 	if vim.env.COLORTERM == "truecolor" then
