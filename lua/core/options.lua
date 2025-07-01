@@ -13,6 +13,9 @@ vim.opt.softtabstop = 0
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
+-- Synchronizes the system clipboard
+-- with nvim's clipboard
+--
 vim.opt.clipboard = "unnamedplus"
 
-vim.opt.scrolloff = 999
+-- vim.opt.scrolloff = 999
