@@ -1,5 +1,5 @@
 local M = {
-	"rubocode/uniwatch.vim",
+	"vague2k/vague.nvim",
 	lazy = false,
 	config = function() end,
 }
