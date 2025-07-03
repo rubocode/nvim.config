@@ -1,5 +1,5 @@
-local scheme_true24 = "xt-uniwatch"
-local scheme_256 = "xt-uniwatch"
+local scheme_true24 = "uw-frontier"
+local scheme_256 = "uw-frontier"
 
 if vim.g.termguicolors then
 	if vim.env.COLORTERM == "truecolor" then
