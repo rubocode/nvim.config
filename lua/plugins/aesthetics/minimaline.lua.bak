@@ -1,5 +1,5 @@
 local M = {
-	"javiorfo/nvim-minimaline",
+	"rubocode/nvim-minimaline",
 	lazy = false,
 
 	-- Optional (only if you want file icons in the statusline)
