@@ -1,5 +1,5 @@
-local scheme_true24 = "uw-frontier"
-local scheme_256 = "uw-frontier"
+local scheme_true24 = "frontier"
+local scheme_256 = "frontier"
 
 if vim.g.termguicolors then
 	if vim.env.COLORTERM == "truecolor" then

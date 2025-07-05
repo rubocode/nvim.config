@@ -1,5 +1,5 @@
 vim.diagnostic.config({
-	virtual_lines = false,
+	virtual_lines = true,
 	virtual_text = false,
 	underline = true,
 	update_in_insert = false,
