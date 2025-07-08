@@ -15,7 +15,7 @@ _lua_ which is useful in customizing the Personal Development Environment (PDE).
 > **C.A.R. Hoare**
 
 This config is meant to be robust and resilient and to allow for flexible
-adjuustment.  It was not meant to load faster, although it does that too.
+adjustment.  It was not meant to load faster, although it does that too.
 
 When was speed a virtue?  If you can't figure that one out by yourself,
 ask your girlfriend or wife.
