@@ -5,7 +5,7 @@ allowed great simplification of managing your personal development environment (
 
 I don't code in a hundred thousand languages.  I was a _c/c++_ programmer
 with a touch of _perl_ in my younger years and now I explore newer static
-compiled languages such as _go_ and _rust_.
+compiled languages such as _go_.
 
 On the dynamic side I have preferred _ruby_ over _python_ and have now added
 _lua_ which is useful in customizing the PDE.
