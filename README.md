@@ -25,5 +25,7 @@ Personal discretion is of the essence.
 > **C.A.R. Hoare**
 
 When was speed a virtue?  If you can't figure that one out by yourself,
-ask your girlfriend or wife.  User experience is the key ;)
+ask your girlfriend or wife.
+
+User experience is the key! ;)
 
