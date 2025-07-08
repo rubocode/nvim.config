@@ -1,7 +1,8 @@
 {
-  "Apprentice": { "branch": "master", "commit": "cb051ec95d12fa34169bb384142b8e50e328cd97" },
+  "Apprentice": { "branch": "master", "commit": "9098604bb9ec51539d3ae39ea68219519633beca" },
   "blink.cmp": { "branch": "main", "commit": "485c03400608cb6534bbf84da8c1c471fc4808c0" },
   "conform.nvim": { "branch": "master", "commit": "973f3cb73887d510321653044791d7937c7ec0fa" },
+  "elysian.vim": { "branch": "master", "commit": "9deac3b58fce2204ecbc7a17369ea141c8d0c8ea" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },
   "gitsigns.nvim": { "branch": "main", "commit": "362fe61f9f19e9bceff178792780df5cce118a7d" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
