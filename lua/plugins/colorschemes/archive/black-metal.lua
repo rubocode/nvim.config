@@ -1,7 +1,7 @@
 local M = {
 	"rubocode/black-metal-theme-neovim",
 	lazy = false,
-	
+
 	config = function()
 		require("black-metal").setup({
 			-----MAIN OPTIONS-----
@@ -77,7 +77,7 @@ local M = {
 			--
 			-- Override default colors
 			colors = {
-				 background = '#FFFFFF'
+				background = "#FFFFFF",
 			},
 			-- Override highlight groups
 			highlights = {},
