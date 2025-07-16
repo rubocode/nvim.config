@@ -9,7 +9,7 @@ local M = {
 		vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "Telescope live grep" })
 		vim.keymap.set("n", "<leader>sb", builtin.buffers, { desc = "Telescope buffers" })
 		vim.keymap.set("n", "<leader>sh", builtin.help_tags, { desc = "Telescope help tags" })
-		vim.keymap.set("n", "<leader>sH", builtin.highlights, { desc = "Telescope view highlight groups" })
+		vim.keymap.set("n", "<leader>sv", builtin.highlights, { desc = "Telescope view highlight variables" })
 	end,
 }
 
