@@ -1,12 +1,11 @@
-local scheme_true24 = "uniwatch-frontier"
-local scheme_256 = "uniwatch-frontier"
+local scheme_true24 = "frontier"
+local scheme_256 = "frontier"
 
 local done = nil
 
-if vim.g.termguicolors then
-	if vim.env.COLORTERM == "truecolor" then
-		done, _ = pcall(vim.cmd.colorscheme, scheme_true24)
-	end
+-- if vim.g.termguicolors then
+if vim.env.COLORTERM == "truecolor" then
+	done, _ = pcall(vim.cmd.colorscheme, scheme_true24)
 elseif vim.env.TERM == "xterm-256color" then
 	done, _ = pcall(vim.cmd.colorscheme, scheme_256)
 end
