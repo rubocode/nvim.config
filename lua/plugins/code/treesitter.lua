@@ -8,6 +8,7 @@ local M = {
 			-- A list of parser names, or "all" (the listed parsers MUST always be installed)
 			ensure_installed = {
 				"c",
+				"cpp",
 				"lua",
 				"vim",
 				"vimdoc",
@@ -38,7 +39,7 @@ local M = {
 				-- disable highlighting for the `tex` filetype, you need to include `latex` in this list as this is
 				-- the name of the parser)
 				-- list of language that will be disabled
-				disable = { "c", "rust" },
+				disable = { "rust" },
 			},
 
 			-- Setting this to true will run `:h syntax` and tree-sitter at the same time.
