@@ -19,3 +19,9 @@ vim.opt.splitright = true
 vim.opt.clipboard = "unnamedplus"
 
 -- vim.opt.scrolloff = 999
+
+-- JUL 30, 2025
+-- Keep spelling turned off as default
+--
+vim.opt.spelllang = "en_us"
+vim.opt.spell = false
