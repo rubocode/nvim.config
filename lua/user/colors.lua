@@ -1,5 +1,7 @@
-local scheme_true24 = "frontier"
-local scheme_256 = "frontier"
+local scheme = "frontier"
+
+local scheme_true24 = scheme
+local scheme_256 = scheme
 
 local done = nil
 
