@@ -9,14 +9,15 @@ local M = {
 			ensure_installed = {
 				"c",
 				"cpp",
+				"go",
 				"lua",
-				"vim",
-				"vimdoc",
-				"query",
 				"markdown",
 				"markdown_inline",
-				"go",
+				"query",
 				"ruby",
+				"vim",
+				"vimdoc",
+				"zig",
 			},
 
 			-- Install parsers synchronously (only applied to `ensure_installed`)
