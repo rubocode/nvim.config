@@ -59,6 +59,7 @@ vim.lsp.config("lua_ls", {
 			-- diagnostics = { disable = { 'missing-fields' } },
 		})
 	end,
+
 	settings = {
 		Lua = {
 			workspace = {
@@ -67,6 +68,12 @@ vim.lsp.config("lua_ls", {
 				library = vim.api.nvim_get_runtime_file("", true),
 			},
 		},
+	},
+
+	-- This is an alternative approach for _vim_ global
+	-- AUG 05, 2025
+	diagnostics = {
+		globals = { "vim" },
 	},
 })
 
