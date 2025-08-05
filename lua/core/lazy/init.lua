@@ -24,6 +24,7 @@ require("lazy").setup({
 		{ import = "plugins.aesthetics" },
 		{ import = "plugins.code" },
 		{ import = "plugins.colorschemes" },
+		{ import = "plugins.dap" },
 		{ import = "plugins.editing" },
 		{ import = "plugins.git" },
 		{ import = "plugins.projects" },

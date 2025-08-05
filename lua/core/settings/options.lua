@@ -28,3 +28,4 @@ vim.opt.spell = false
 
 -- AUG 05, 2025
 -- vim.o.winborder = "rounded"
+vim.o.cursorline = true
