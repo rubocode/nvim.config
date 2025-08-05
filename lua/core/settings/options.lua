@@ -25,3 +25,6 @@ vim.opt.clipboard = "unnamedplus"
 --
 vim.opt.spelllang = "en_us"
 vim.opt.spell = false
+
+-- AUG 05, 2025
+-- vim.o.winborder = "rounded"
