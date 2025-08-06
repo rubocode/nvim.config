@@ -38,6 +38,16 @@ local M = {
 			widgets.centered_float(widgets.scopes)
 		end)
 	end,
+
+	keys = {
+		{
+			"<leader>du",
+			function()
+				require("dapui").toggle({})
+			end,
+			desc = "Dap UI Toggle",
+		},
+	},
 }
 
 return { M }

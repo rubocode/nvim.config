@@ -4,25 +4,11 @@ local M = {
 	"mfussenegger/nvim-dap",
 	lazy = false,
 	config = function()
-		vim.keymap.set("n", "<leader>db", require("dap").toggle_breakpoint, { noremap = true })
-		vim.keymap.set("n", "<leader>dc", require("dap").continue, { noremap = true })
-		vim.keymap.set("n", "<leader>do", require("dap").step_over, { noremap = true })
-		vim.keymap.set("n", "<leader>di", require("dap").step_into, { noremap = true })
-
-		vim.keymap.set("n", "<leader>dl", function()
-			require("osv").launch({ port = 8086 })
-		end, { noremap = true })
-
-		vim.keymap.set("n", "<leader>dw", function()
-			local widgets = require("dap.ui.widgets")
-			widgets.hover()
-		end)
-
-		vim.keymap.set("n", "<leader>df", function()
-			local widgets = require("dap.ui.widgets")
-			widgets.centered_float(widgets.frames)
-		end)
+		local dap = require("dap")
+		vim.keymap.set("n", "<leader>db", dap.toggle_breakpoint, { noremap = true, desc = "Toggle Breakpoint" })
+		vim.keymap.set("n", "<leader>dc", dap.continue, { noremap = true, desc = "Continue" })
+		vim.keymap.set("n", "<leader>do", dap.step_over, { noremap = true, desc = "Step Over" })
+		vim.keymap.set("n", "<leader>di", dap.step_into, { noremap = true, desc = "Step Into" })
 	end,
 }
-
 return { M }
