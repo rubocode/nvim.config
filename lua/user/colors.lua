@@ -8,7 +8,7 @@ local done = nil
 -- if vim.g.termguicolors then
 if vim.env.COLORTERM == "truecolor" then
 	done, _ = pcall(vim.cmd.colorscheme, scheme_true24)
-elseif vim.env.TERM == "xterm-256color" then
+elseif string.find(vim.env.TERM, "xterm") == 1 then
 	done, _ = pcall(vim.cmd.colorscheme, scheme_256)
 end
 
