@@ -4,7 +4,7 @@ local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
 -- If lazy.nvim is not installed
 -- Install it from github.com
-if not vim.loop.fs_stat(lazypath) then
+if not vim.uv.fs_stat(lazypath) then
 	-- bootstrap lazy.nvim
 	-- stylua: ignore
 	vim.fn.system({
