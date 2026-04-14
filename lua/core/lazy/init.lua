@@ -27,7 +27,6 @@ require("lazy").setup({
 		{ import = "plugins.dap" },
 		{ import = "plugins.editing" },
 		{ import = "plugins.git" },
-		{ import = "plugins.projects" },
 	},
 
 	defaults = {
